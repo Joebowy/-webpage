@@ -27,11 +27,11 @@ with col3:
         st.header(row["title"])
         st.write(row["description"])
         st.image("image/" + row["image"])
-        st.write(f"[source code]({row['url']})")
+
 
 with col4:
     for index,row in df[10:].iterrows():
         st.header(row["title"])
         st.write(row["description"])
         st.image("image/" + row["image"])
-        st.write(f"[source code]({row['url']})")
+
