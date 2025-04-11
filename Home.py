@@ -28,6 +28,17 @@ with col3:
         st.write(row["description"])
         st.image("image/" + row["image"])
 
+        if index==2:
+            st.write(f"[source code]({'https://github.com/Joebowy/Creating-pdf-file'})")
+        if index==0:
+            st.write(f"[source code]({'https://github.com/Joebowy/to-do-app'})")
+
+        if index == 3:
+            st.write(f"[source code]({'https://github.com/Joebowy/pdf-Invoice.git'})")
+
+
+
+
 
 with col4:
     for index,row in df[10:].iterrows():
